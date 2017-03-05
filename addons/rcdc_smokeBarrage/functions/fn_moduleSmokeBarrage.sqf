@@ -23,7 +23,7 @@ if (_activated) then
 	_smoke = "#particlesource" createVehicleLocal getPos _logic;
 	_smoke setParticleCircle [3, [0, 0, 0]];
 	_smoke setParticleRandom [0, [0.25, 0.25, 0], [0.175, 0.175, 0], 0, 0.25, [0, 0, 0, 0.1], 0, 0];
-	_smoke setParticleParams [["\A3\data_f\cl_basic.p3d", 1, 0, 1], "", "Billboard", 1, 60, [0, 0, 1], [0, 0, 0], 0, 6.37, 5, 0.085, [3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10], [[1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]], [0.08], 1, 0, "", "", _logic, 0, true, 0.5]; 
+	_smoke setParticleParams [["\A3\data_f\cl_basic.p3d", 1, 0, 1], "", "Billboard", 1, 120, [0, 0, 1], [0, 0, 0], 0, 6.37, 0.5, 0.085, [3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 9.5, 9, 8.5, 8, 7.5, 7, 6.5, 6, 5.5, 5, 4.5, 4, 3.5, 3, 2.5], [[1, 1, 1, 0.3], [1, 1, 1, 0.5], [1, 1, 1, 0.7], [1, 1, 1, 0.9], [1, 1, 1, 1], [1, 1, 1, 0.9], [1, 1, 1, 0.7], [1, 1, 1, 0.5], [1, 1, 1, 0.3], [1, 1, 1, 0.1]], [0.08], 1, 0, "", "", _logic, 0, true, 0];
 	_smoke setDropInterval 0.05;
 	_file = format["A3\Sounds_F\weapons\smokeshell\smoke_loop%1%2", str selectRandom [1, 2], ".wss"];
 	_future = time + 300;
