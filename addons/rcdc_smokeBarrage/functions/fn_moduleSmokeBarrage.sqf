@@ -28,13 +28,13 @@ if (_activated) then
 	_file = format["A3\Sounds_F\weapons\smokeshell\smoke_loop%1%2", str selectRandom [1, 2], ".wss"];
 	_future = time + 300;
 	playSound3D [_file, _logic];
-	_sound = time + 2;
+	_sound = time + 2.75;
 	waitUntil
 	{
 		if (time >= _sound) then
 		{
 			playSound3D [_file, _logic];
-			_sound = time + 2;
+			_sound = time + 2.75;
 		};
 		time >= _future
 	};
