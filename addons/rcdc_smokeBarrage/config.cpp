@@ -7,9 +7,9 @@ class CfgPatches
 		url = "https://github.com/boulayb/-A3-SmokeBarrage";
 		authorUrl = "https://github.com/boulayb/";
 		
-		version = 1.0.2;
-		versionStr = "1.0.2";
-		versionAr[] = {1,0,2};
+		version = 1.1.1;
+		versionStr = "1.1.1";
+		versionAr[] = {1,1,1};
 		
 		requiredVersion = 1.60;
 		requiredAddons[] = {
